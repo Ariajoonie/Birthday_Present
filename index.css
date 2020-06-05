@@ -1,0 +1,69 @@
+.slide_bg{
+    width: 100%;
+    height: auto;
+    padding: 5% 18% 5% 18%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 40s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('./images/wuxga.png');
+}
+
+@keyframes slideBg {
+0%{
+    background-image: url('./images/wuxga.png');
+}
+10%{
+    background-image: url('./images/fff.png');
+}
+20%{
+    background-image: url('./images/wuxga.png');
+}
+30%{
+    background-image: url('./images/svga.png');
+}
+40%{
+    background-image: url('./images/fff.png');
+}
+50%{
+    background-image: url('./images/wuxga.png');
+}
+60%{
+    background-image: url('./images/svga.png');
+}
+70%{
+    background-image: url('./images/wuxga.png');
+}
+80%{
+    background-image: url('./images/fff.png');
+}
+100%{
+    background-image: url('./images/svga.png');
+}
+}
+
+.card{
+    padding: 20px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5rem ;
+}
+
+.card p{
+    padding: 20px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 2rem ;
+    text-align: center;
+}
+
+button{
+    float: right;
+    color: aqua;
+    background-color: black;
+}
+
+button:hover{
+    color: black;
+    background-color:aqua;
+}
